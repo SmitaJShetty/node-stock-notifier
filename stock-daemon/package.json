@@ -1,0 +1,19 @@
+{
+  "name": "stock-daemon",
+  "version": "1.0.0",
+  "description": "Daemon does the following things",
+  "main": "stock-updater.js",
+  "type": "module",
+  "dependencies": {
+    "forever": "^3.0.0",
+    "jest": "^26.2.2",
+    "mongoose": "^5.9.27"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node --experimental-modules app.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
