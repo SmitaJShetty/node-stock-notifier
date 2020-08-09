@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 import * as schema from './schema.js';
 
 const connectToDB = () => {
-    const connStr = "mongodb+srv://test456:bqHMV4xP79y61bza@testcluster.gvlfa.mongodb.net/stock-ticker?retryWrites=true&w=majority";
+    const connStr = "mongodb+srv://test456:<PWD>@testcluster.gvlfa.mongodb.net/stock-ticker?retryWrites=true&w=majority";
     let connection = null;
     
     try{
