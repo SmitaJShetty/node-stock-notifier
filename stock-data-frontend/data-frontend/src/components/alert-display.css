@@ -1,0 +1,48 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: wheat;
+    font-size: 12px;
+}
+
+.alertlist{
+    padding: 20px;
+    margin: 20px;
+}
+
+.alertlistrow {
+    display: inline;
+    margin: 10px 10px 10px 10px;
+    padding: 20px;
+    font-size: 50%;
+}
+
+.alertform{
+    display: block;
+    float: left;
+}
+
+.alertform > div {
+    display: block;    
+}
+
+.alertform div label{
+    padding: 15px;
+    margin: 10px;
+    text-align: right;
+    clear: left;
+    display: inline-block;
+    width: 200px;
+}
+
+.alertform div input{
+    display: inline-block;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    
+}
+.searchpanel > div{
+    display: inline;
+    margin: 10px 10px 10px 10px;
+    padding: 15px;
+}
